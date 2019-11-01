@@ -42,6 +42,8 @@ This component allows to get the data of sensors of STEVAL_BCN002V1 on [Home Ass
              - humidity
              - battery
 
+![image](https://user-images.githubusercontent.com/11463289/68009223-bb704f00-fcc4-11e9-86a1-c4d637333635.png)
+
 ## CONFIGURATION VARIABLES
 ### mac
 >*(string)(Required)*<br>
@@ -100,7 +102,5 @@ Define cache expiration value in seconds.<br><br>
 Define the Bluetooth adapter to use. Run hciconfig to get a list of available adapters.<br><br>
 >*Default value:*<br>
 hci0
-
-![image](https://user-images.githubusercontent.com/11463289/68009223-bb704f00-fcc4-11e9-86a1-c4d637333635.png)
 
 [hass]: https://home-assistant.io
