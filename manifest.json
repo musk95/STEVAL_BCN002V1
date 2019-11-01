@@ -1,0 +1,8 @@
+{
+    "domain": "bcn002v1",
+    "name": "STEVAL BCN002V1",
+    "documentation": "https://github.com/musk95/STEVAL_BCN002V1",
+    "requirements": [],
+    "dependencies": [],
+    "codeowners": []
+}
