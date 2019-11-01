@@ -51,8 +51,8 @@ The MAC address of your sensor.
 >*(list)(Optional)*<br>
 The parameters that should be monitored.<br><br>
 >*Default value:*<br>
-[“pressure”, “temperature”, “humidity”, “battery”]<br><br>
->**pressure**<br>
+[“pressure”, “temperature”, “humidity”, “battery”]<br>
+>>**pressure**<br>
 Pressure in mBar at the sensor’s location.<br><br>
 >**temperature**<br>
 Temperature in C at the sensor’s location.<br><br>
