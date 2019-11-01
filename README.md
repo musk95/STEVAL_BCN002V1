@@ -49,22 +49,17 @@ The MAC address of your sensor.
 
 ### monitored_conditions
 >*(list)(Optional)*<br>
-The parameters that should be monitored.
-
+The parameters that should be monitored.<br>
 >*Default value:*<br>
-[“pressure”, “temperature”, “humidity”, “battery”]
-
+[“pressure”, “temperature”, “humidity”, “battery”]<br>
 >**pressure**<br>
-Pressure in mBar at the sensor’s location.
-
+Pressure in mBar at the sensor’s location.<br>
 >**temperature**<br>
-Temperature in C at the sensor’s location.
-
+Temperature in C at the sensor’s location.<br>
 >**humidity**<br>
-Humidity level in % at the sensor’s location.
-
+Humidity level in % at the sensor’s location.<br>
 >**battery**<br>
-Battery details (in %).
+Battery details (in %).<br>
 
 ### name
 >*(string)(Optional)*<br>
@@ -72,43 +67,37 @@ The name displayed in the frontend.
 
 ### force_update
 >*(boolean)(Optional)*<br>
-Sends update events even if the value hasn’t changed.
-
+Sends update events even if the value hasn’t changed.<br>
 >*Default value:*<br>
 false
 
 ### median
 >*(integer)(Optional)*<br>
-Sometimes the sensor measurements show spikes. Using this parameter, the poller will report the median of the last 3 (you can also use larger values) measurements. This filters out single spikes. Median: 5 will also filter double spikes. If you never have problems with spikes, median: 1 will work fine.
-
+Sometimes the sensor measurements show spikes. Using this parameter, the poller will report the median of the last 3 (you can also use larger values) measurements. This filters out single spikes. Median: 5 will also filter double spikes. If you never have problems with spikes, median: 1 will work fine.<br>
 >*Default value:*<br>
 1
 
 ### timeout
 >*(integer)(Optional)*<br>
-Define the timeout value in seconds when polling.
-
+Define the timeout value in seconds when polling.<br>
 >*Default value:*<br>
 10
 
 ### retries
 >*(integer)(Optional)*<br>
-Define the number of retries when polling.
-
+Define the number of retries when polling.<br>
 >*Default value:*<br>
 2
 
 ### cache_value
 >*(integer)(Optional)*<br>
-Define cache expiration value in seconds.
-
+Define cache expiration value in seconds.<br>
 >*Default value:*<br>
 3
 
 ### adapter
 >*(string)(Optional)*<br>
-Define the Bluetooth adapter to use. Run hciconfig to get a list of available adapters.
-
+Define the Bluetooth adapter to use. Run hciconfig to get a list of available adapters.<br>
 >*Default value:*<br>
 hci0
 
