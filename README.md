@@ -48,7 +48,7 @@ This component allows to get the data of sensors of STEVAL_BCN002V1 on [Home Ass
        light:
          - platform: BCN002V1
 
-![image](https://user-images.githubusercontent.com/11463289/68009223-bb704f00-fcc4-11e9-86a1-c4d637333635.png)
+![image2](https://user-images.githubusercontent.com/11463289/69224236-88ccbe80-0bbf-11ea-85cb-607900e624c1.png)
 
 ## CONFIGURATION VARIABLES
 ### mac
