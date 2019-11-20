@@ -32,15 +32,21 @@ This component allows to get the data of sensors of STEVAL_BCN002V1 on [Home Ass
 
 3. To use sensors in your installation, add the following on `confidureation.yaml` which is located on `~/.homeassistant` or `~/config` folder.
 
+       bcn002v1:
+         mac: 'f5:ce:8c:51:00:95'
+
        sensor:
          - platform: BCN002V1
-           mac: 'E0:F5:F4:FE:DE:AD'
-           scan_interval: 5
+           scan_interval: 15
            monitored_conditions:
              - pressure
              - temperature
              - humidity
              - battery
+             - proximity
+        
+       light:
+         - platform: BCN002V1
 
 ![image](https://user-images.githubusercontent.com/11463289/68009223-bb704f00-fcc4-11e9-86a1-c4d637333635.png)
 
